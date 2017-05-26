@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta charset="utf-8" />
+
+	<title>Anzeigename für PopUps</title>
+    
+    <script src="/apps/api/knuddels-api.js"></script>
+    <!-- 
+    Hier laden wir alle Funktionen die für die clientseitige Verarbeitung unserer App notwendig sind.
+    -->
+    <script>
+		Client.includeCSS('style.css');
+		Client.includeJS('/apps/api/jquery.min.js', 'func.js');
+	</script>
+    <!-- 
+        Hier laden wir die CSS-Datei für die Ausgestaltung unserer User App (style.css) - Diese muss unbedingt im WWW-Ordner liegen
+        Zusätzlich wird neben der von Knuddels zur Verfügung gestellten JQuery-Version auch noch eine eigene JS-Datei eingebunden, mit der wir Javascriptspielereien einbinden können.
+    -->
+</head>
+
+<body>
+    <div class="Wrapper">
+        <div class="Header"></div>
+        <div class="Content"></div>
+        <div class="Footer"></div>
+    </div>
+    <!-- 
+    Ich habe mir angewöhnt meine User App immer in 4 Bereiche einzuteilen, die ich dann via CSS ausgestalten kann.
+    Der Wrapper ist quasi der "Schaukasten" in dem mein angezeigter Content liegt.
+    Im Header wird später z.B. das Logo eingefügt, im Footer wäre Platz für ein Copyright oder Versionshinweise und im Content-Bereich logischerweise der Content der App.
+    
+    -->
+</body>
+</html>
